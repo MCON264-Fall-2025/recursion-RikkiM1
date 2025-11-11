@@ -31,7 +31,6 @@ public class LinkedListInsertEnd {
       head.next = new Node<>(value);
       return head;
   }
-        // Recursive: head.next = insertAtEnd(head.next, value); return head;
     head.next = insertAtEnd(head.next, value);
         return head;
     }
