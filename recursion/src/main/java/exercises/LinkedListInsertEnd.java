@@ -24,13 +24,13 @@ public class LinkedListInsertEnd {
 
     public static <T> Node<T> insertAtEnd(Node<T> head, T value) {
         // TODO: implement recursively
-  if (head == null)
-      return new Node<>(value);
+        if (head == null)
+            return new Node<>(value);
 
-  if (head.next == null) {
-      head.next = new Node<>(value);
-      return head;
-  }
+        if (head.next == null) {
+            head.next = new Node<>(value);
+            return head;
+        }
     head.next = insertAtEnd(head.next, value);
         return head;
     }
