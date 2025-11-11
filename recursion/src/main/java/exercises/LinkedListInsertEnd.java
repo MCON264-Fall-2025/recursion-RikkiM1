@@ -32,7 +32,7 @@ public class LinkedListInsertEnd {
       return head;
   }
         // Recursive: head.next = insertAtEnd(head.next, value); return head;
-        head.next = insertAtEnd(head.next, value);
+    head.next = insertAtEnd(head.next, value);
         return head; // TEMP: replace with your recursive solution
     }
 }
