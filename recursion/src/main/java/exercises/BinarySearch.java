@@ -49,6 +49,5 @@ public class BinarySearch {
             return search(a, target, lo, mid - 1);
         else return search(a, target, mid + 1, hi);
 
-        // TEMP: replace with your recursive solution
     }
 }
